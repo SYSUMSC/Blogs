@@ -78,3 +78,36 @@ join j in reflist on <condition>
 ## 查询语法和方法组语法
 你可能已经发现了上述所有例子中都写了两种语法。其中第一种成为查询语法，使用一种类 SQL 语言 -- LINQ 语言对数据进行操作；另外一种成为方法组语法，来自于 IEnumerable 的扩展方法。  
 LINQ 的本质便是 IEnumerable 的扩展方法，而它的查询语法可以认为是一种语法糖，在编译期会被翻译成方法组语法进行调用。
+
+## 方法一览表
+C# 的 LINQ 标准方法组：
+
+| 方法名称 | 方法说明 |
+| ------- | ------- |
+| Where | 筛选满足条件的数据 |
+| Select/SelectMany | 选择数据 |
+| Take/Skip/ TakeWhile/SkipWhile | 获取特定位置的数据 |
+| Join/GroupJoin | 数据联接 |
+| Concat | 集合之间的拼接 |
+| OrderBy/ThenBy/OrderByDescending/ThenByDescending | 数据排序 |
+| Reverse | 反转整个集合 |
+| GroupBy | 对集合元素进行分组 |
+| Distinct | 移除集合中的重复元素 |
+| Union/Intersect | 计算集合的联合/交集 |
+| Except | 排除集合中的元素 |
+| AsEnumerable | 将集合转换为 IEnumerable\<T> |
+| ToArray/ToList | 将 IEnumerable\<T> 转换为 Array\<T> 或 List\<T> |
+| ToDictionary/ToLookup | 将 IEnumerable\<T> 转换为 Dictionary\<K,T> 或 Lookup\<K,T> |
+| OfType/Cast | 数据类型转换 |
+| SequenceEqual | 集合之间判等 |
+| First/FirstOrDefault/Last/LastOrDefault/Single/SingleOrDefault | 获取集合的初始/最终/特定元素 |
+| ElementAt/ElementAtOrDefault | 获取集合中特定位置的元素 |
+| DefaultIfEmpty | 集合为空的默认值 |
+| Range | 获取指定范围内的数据 |
+| Repeat | 获取指定数量的重复数据 |
+| Empty | 获取一个空集合 |
+| Any/All | 检测集合中是否全部/存在满足指定条件的数据 |
+| Contains | 检测集合中是否包含某数据 |
+| Count/LongCount | 获取集合中的元素数量 |
+| Sum/Min/Max/Average | 对集合进行求和、求最大值、求最小值和求平均值运算 |
+| Aggregate | 对集合中的所有元素进行累加操作并返回累加后的结果 |
