@@ -73,7 +73,7 @@ join j in reflist on <condition>
 
 ## 其他
 除了以上的基本操作之外，我们还可以利用 LINQ 进行数据的拼接、转换、运算和统计等等。  
-例如，可以使用 Max() 方法求最大值，使用 Cast<T>() 方法进行数据类型转换，使用 Sum() 方法求和，以及使用 Concat() 方法进行集合的拼接等等。
+例如，可以使用 Max() 方法求最大值，使用 Cast<T\>() 方法进行数据类型转换，使用 Sum() 方法求和，以及使用 Concat() 方法进行集合的拼接等等。
 
 ## 查询语法和方法组语法
 你可能已经发现了上述所有例子中都写了两种语法。其中第一种成为查询语法，使用一种类 SQL 语言 -- LINQ 语言对数据进行操作；另外一种成为方法组语法，来自于 IEnumerable 的扩展方法。  
@@ -95,9 +95,9 @@ C# 的 LINQ 标准方法组：
 | Distinct | 移除集合中的重复元素 |
 | Union/Intersect | 计算集合的联合/交集 |
 | Except | 排除集合中的元素 |
-| AsEnumerable | 将集合转换为 IEnumerable\<T> |
-| ToArray/ToList | 将 IEnumerable\<T> 转换为 Array\<T> 或 List\<T> |
-| ToDictionary/ToLookup | 将 IEnumerable\<T> 转换为 Dictionary\<K,T> 或 Lookup\<K,T> |
+| AsEnumerable | 将集合转换为 IEnumerable\<T\> |
+| ToArray/ToList | 将 IEnumerable\<T\> 转换为 Array\<T\> 或 List\<T\> |
+| ToDictionary/ToLookup | 将 IEnumerable\<T\> 转换为 Dictionary\<K,T\> 或 Lookup\<K,T\> |
 | OfType/Cast | 数据类型转换 |
 | SequenceEqual | 集合之间判等 |
 | First/FirstOrDefault/Last/LastOrDefault/Single/SingleOrDefault | 获取集合的初始/最终/特定元素 |
