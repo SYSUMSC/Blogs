@@ -8,8 +8,8 @@
 
 ## Links
 
-- [1. Introduction](https://vinalx.github.io/articles/2017-09/haskell-basic-monad)
-- [2. Simple Monads](https://vinalx.github.io/articles/2017-09/haskell-basic-monad-2)
-- [3. Functors & Applicatives](https://vinalx.github.io/articles/2017-09/haskell-basic-monad-3)
-- [4. More Monads](https://vinalx.github.io/articles/2017-11/haskell-basic-monad-4)
-- [5. Monad Transformers](https://vinalx.github.io/articles/2017-12/haskell-basic-monad-5)
+- [1. Introduction](https://vinalx.github.io/articles/2017/09/haskell-basic-monad)
+- [2. Simple Monads](https://vinalx.github.io/articles/2017/09/haskell-basic-monad-2)
+- [3. Functors & Applicatives](https://vinalx.github.io/articles/2017/09/haskell-basic-monad-3)
+- [4. More Monads](https://vinalx.github.io/articles/2017/11/haskell-basic-monad-4)
+- [5. Monad Transformers](https://vinalx.github.io/articles/2017/12/haskell-basic-monad-5)
